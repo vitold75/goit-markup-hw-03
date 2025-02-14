@@ -162,7 +162,7 @@ margin-right: auto;
 }
 
 /* section2 */
-.section2 {
+.section-flex {
     display: flex;
     gap: 24px;
 }
@@ -175,7 +175,7 @@ margin-right: auto;
   margin: -1px;}
 
 .feutures-list {
-    width: calc((100%-3*24px)/4);
+    width: calc((100% - 3*24px)/4);
 }
 
 .features-title {
