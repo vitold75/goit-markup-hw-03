@@ -32,6 +32,9 @@ a {
     margin: 0 auto
 }
 
+.section {
+    padding: 120px 0;
+}
 
 
 /* header */
@@ -158,6 +161,22 @@ margin-right: auto;
     cursor:pointer
 }
 
+/* section2 */
+.section2 {
+    display: flex;
+    gap: 24px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;}
+
+.feutures-list {
+    width: calc((100%-3*24px)/4);
+}
 
 .features-title {
 font-weight: 500;
@@ -165,6 +184,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .features-text {
