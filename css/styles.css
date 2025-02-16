@@ -181,7 +181,7 @@ margin-right: auto;
 }
 
 .features-list {
-    width: calc((100% - 24px*3)/4);
+width: calc((100% - 24px*3)/4);
 }
 
 .features-title {
@@ -201,6 +201,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+/* Section3 */
 
 .ourteam {
 background-color: #f4f4fd;
@@ -214,10 +215,22 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
+margin-bottom: 72px;
+}
+
+.ourteam-flex {
+display: flex;
+gap: 24px;
+}
+
+.ourteam-card-name {
+padding: 32px 0;
 }
 
 .ourteam-card {
 background-color: #fff;
+width: calc((100% - 24px*3)/4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .ourteam-card-title {
@@ -226,6 +239,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-align: center;
+margin-bottom: 8px;
 }
 
 .ourteam-card-text {
@@ -233,6 +248,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+text-align: center;
 }
 
 
